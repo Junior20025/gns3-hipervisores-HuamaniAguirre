@@ -29,8 +29,8 @@ La virtualización por hardware debe estar habilitada en BIOS.
 
 ### Verificación en Windows:
 ```bash
-systeminfo
-
+Systeminfo
+ 
 ---
 
 # 2. GNS3 VM: El Motor de Simulación
@@ -123,4 +123,6 @@ Estas opciones permiten el tráfico dinámico dentro de redes virtuales.
 ## Comando útil
 
 ```bash
+
 VBoxManage modifyvm "GNS3 VM" --nested-hw-virt on
+
