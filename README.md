@@ -124,4 +124,4 @@ Integrar **GNS3 con VirtualBox y ESXi** permite:
 
 ✨ Tu entorno estará **optimizado, estable y listo para prácticas avanzadas de redes**.
 
-![Topología de GNS3](img/gns3_apertura.webp) 
+![Topología de GNS3](img/gns3_apertura.png) 
