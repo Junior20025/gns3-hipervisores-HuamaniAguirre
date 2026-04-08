@@ -114,13 +114,6 @@ Estas opciones permiten el tráfico dinámico dentro de redes virtuales.
 
 ---
 
-## Comando útil
-
-```bash
-
-VBoxManage modifyvm "GNS3 VM" --nested-hw-virt on
----
-
 ## ✅ Conclusión
 
 Integrar **GNS3 con VirtualBox y ESXi** permite:
