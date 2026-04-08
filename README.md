@@ -30,4 +30,4 @@ La virtualización por hardware debe estar habilitada en BIOS.
 ### Verificación en Windows:
 ```bash
 systeminfo
-![Topologia](img/tu-imagen.png)
+![Topologia](img/gns3_apertura.png)
