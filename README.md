@@ -125,6 +125,15 @@ Estas opciones permiten el tráfico dinámico dentro de redes virtuales.
 - MAC Address Changes permite que GNS3 reasigne direcciones MAC dinámicamente sin que el switch virtual bloquee los paquetes.
 - Estas configuraciones aseguran que la topología funcione como si fueran equipos físicos reales.
 
+### 📊 Diagrama 1: Topología Local con VirtualBox
+![Topología Local](img/diagramaVirtualBox.png) 
+*Este diagrama muestra cómo la GNS3 VM se conecta a VirtualBox usando Host-Only Network.*
+
+### 📊 Diagrama 2: Topología Remota con ESXi
+![Topología Remota](img/DiagramaExsi.png)
+*Este diagrama muestra la conexión de GNS3 desde la laptop al servidor ESXi y cómo se distribuyen las máquinas virtuales dentro de la red.*
+
+
 ## ✅ Conclusión
 
 Integrar **GNS3 con VirtualBox y ESXi** permite:
