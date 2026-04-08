@@ -24,13 +24,6 @@ El **Aislamiento de Núcleo (Core Isolation)** y la **Virtualization-Based Secur
 
 ---
 
-## Activación de VT-x / AMD-V
-La virtualización por hardware debe estar habilitada en BIOS.
-
-### Verificación en Windows:
-```bash
-Systeminfo
-
 # 2. GNS3 VM: El Motor de Simulación
 
 ## KVM (Kernel-based Virtual Machine)
