@@ -114,6 +114,17 @@ Estas opciones permiten el tráfico dinámico dentro de redes virtuales.
 
 ---
 
+### 🔧 Por qué asignar CPU y RAM a la GNS3 VM
+- La GNS3 VM requiere suficiente RAM y núcleos de CPU para simular routers y switches sin retrasos.
+- Si se asigna muy poca RAM, los dispositivos virtuales se cuelgan.
+- Si se asigna demasiada RAM, Windows 11 puede volverse inestable.
+- Recomendación: balancear recursos según el hardware del host.
+
+### 🔧 Por qué habilitar Promiscuous Mode y MAC Address Changes en ESXi
+- Promiscuous Mode permite que las máquinas virtuales capturen todo el tráfico de red, necesario para simulaciones de capa 2 en GNS3.
+- MAC Address Changes permite que GNS3 reasigne direcciones MAC dinámicamente sin que el switch virtual bloquee los paquetes.
+- Estas configuraciones aseguran que la topología funcione como si fueran equipos físicos reales.
+
 ## ✅ Conclusión
 
 Integrar **GNS3 con VirtualBox y ESXi** permite:
