@@ -32,7 +32,7 @@ El **Aislamiento de Núcleo (Core Isolation)** y la **Virtualization-Based Secur
 ## KVM (Kernel-based Virtual Machine)
 KVM es una tecnología de virtualización que permite a GNS3 ejecutar dispositivos con alto rendimiento usando el kernel de Linux.
 
-🔴 Importante:
+⚠️ Importante:
 Debe aparecer como:
 KVM support: True
 
